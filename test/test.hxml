@@ -1,16 +1,16 @@
 ## Flash 9+
--main TestMain
--lib munit
--lib hamcrest
--cp src
--resource resource/small_sample.yaml@small
--resource resource/sample.yaml@large
+#-main TestMain
+#-lib munit
+#-lib hamcrest
+#-cp src
+#-resource resource/small_sample.yaml@small
+#-resource resource/sample.yaml@large
 
--cp test
--swf-version 9
--swf bin/as3_test.swf
+#-cp test
+#-swf-version 9
+#-swf bin/as3_test.swf
 
---next
+#--next
 
 ## JavaScript
 -main TestMain
@@ -23,31 +23,31 @@
 -cp test
 -js bin/js_test.js
 
---next
+#--next
 
 ## Neko
--main TestMain
--lib munit
--lib hamcrest
--cp src
--resource resource/small_sample.yaml@small
--resource resource/sample.yaml@large
+#-main TestMain
+#-lib munit
+#-lib hamcrest
+#-cp src
+#-resource resource/small_sample.yaml@small
+#-resource resource/sample.yaml@large
 
--cp test
--neko bin/neko_test.n
+#-cp test
+#-neko bin/neko_test.n
 
---next
+#--next
 
 ## CPP
--main TestMain
--lib munit
--lib hamcrest
--cp src
--resource resource/small_sample.yaml@small
--resource resource/sample.yaml@large
+#-main TestMain
+#-lib munit
+#-lib hamcrest
+#-cp src
+#-resource resource/small_sample.yaml@small
+#-resource resource/sample.yaml@large
 
--cp test
+#-cp test
 #-D HXCPP_M64
--cpp bin/cpp_test
+#-cpp bin/cpp_test
 
 

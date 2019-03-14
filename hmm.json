@@ -1,0 +1,16 @@
+{
+  "dependencies": [
+    {
+      "name": "hamcrest",
+      "type": "git",
+      "url": "git@github.com:andywhite37/hamcrest-haxe",
+      "ref": "89c0465",
+      "dir": "src"
+    },
+    {
+      "name": "munit",
+      "type": "haxelib",
+      "version": "2.3.3"
+    }
+  ]
+}

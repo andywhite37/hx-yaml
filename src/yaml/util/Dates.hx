@@ -54,7 +54,7 @@ class Dates
 	public static function toISOString(date:Date):String
 	{
 		var NativeDate = getNativeDate();
-		var d = untyped __new__(NativeDate, date.getTime());
+		var d = untyped js.Syntax.construct(NativeDate, date.getTime());
 
 		return d.getUTCFullYear() + '-'
 			+ StringTools.lpad("" + (d.getUTCMonth() + 1), "0", 2) + '-'
